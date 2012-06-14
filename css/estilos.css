@@ -1,0 +1,322 @@
+/********************RESETS*********************/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color:#fff;
+	text-decoration:none;
+}
+
+.nf{
+	clear:both;
+}
+
+/****************ESTILOS GENERALES***************/
+
+body{
+	font-size:12px;
+	margin:0 auto;
+}
+
+
+header{
+	background:url(../images/bg_header.jpg);
+	border-bottom:5px solid #7e0001;
+	height:87px;
+}
+
+nav{
+	background:url(../images/bg_menu.jpg);
+	height:30px;
+}
+
+nav ul{
+	list-style:none;
+	max-width:960px;
+	margin:0 auto;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-left:65px;
+}
+
+nav a{
+	color:#fff;
+	display: block;
+	font-family:verdana;
+	height:13px;
+	line-height:13px;
+	padding:8px;
+	text-transform:uppercase;
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+}
+
+nav a:hover{
+	border-radius:5px;
+	background:url(../images/btn_hover.jpg) repeat-x;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+
+section{
+	
+}
+
+article{
+	
+}
+
+footer{
+	background: #c3c3c3;
+	text-align:center;
+}
+#cont_header{
+	max-width:960px;
+	margin:0 auto;
+}
+#logo{
+	height:65px;
+	margin-left:65px;
+	padding-top:10px;
+	width:137px;
+}
+#galeria{
+	background:#2a2929;
+	min-height:236px;
+}
+
+#cont_galeria{
+	color:#fff;
+	font-weight:normal;
+	max-width:960px;
+	margin:0 auto;
+}
+
+#cont_galeria h1{
+	font-family:"Myriad Pro", arial;
+	font-size:36px;
+	padding-top:5px;
+}
+
+#cont_galeria p{
+	font-family:tahoma,arial;
+	font-size:14px;
+	padding-top:20px;
+	padding-bottom:15px;
+	text-align:justify;
+	width:395px;
+}
+
+#plus, #shopping {
+	color:#fff;
+	background:url(../images/add.png) no-repeat;
+	display:inline-block;
+	font-size:14px;
+	height:22px;
+	padding-left:40px;
+	padding-top:10px;
+	vertical-align: top;
+}
+
+#cont_galeria #shopping{
+	background:url(../images/shopping_cart.png) no-repeat;
+}
+
+#cont_galeria a:hover{
+	text-decoration:underline;
+}
+#cont_galeria #slidegaleria{
+	border:5px solid #fff;
+	float:right;
+	max-width:350px;
+	margin-right:58px;
+	top:8px;
+	position: relative;
+}
+
+
+#slidegaleria ul{
+	list-style:none;
+}
+
+#slidegaleria ul li{
+	height:204px;
+	width:340px;
+}
+
+#slidegaleria img{
+	
+}
+
+
+#cont_contenido{
+	color:#000;
+	font-family:verdana, arial;
+	font-size:14px;
+	font-weight:normal;
+	max-width:960px;
+	margin:0 auto;
+	text-align:justify;
+}
+
+#post, #slide{
+	float:left;
+	width:65%;
+}
+
+#post h1{
+	font-family:"Myriad Pro", arial;
+	font-size:24px;
+	padding-top:25px;
+}
+#post p{
+	padding-top:15px;
+	width:550px;
+}
+
+#post #lista{
+	border-radius:5px;
+	background: rgba(0,0,0,0.3);
+	display: inline-block;
+	list-style:none;
+	margin-top:8px;
+	margin-left:15px;
+	padding:10px;
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+}
+
+#lista:hover{
+	box-shadow: 0 0 8px #000;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+}
+
+#post #lista li{
+	background:url(../images/bullet.png) no-repeat;
+	color:#000;
+	font-family:"Myriad Pro", arial;
+	padding-bottom:10px;
+	padding-left:30px;
+}
+
+#slide{
+	background: rgba(0,0,0,0.3);
+	margin-top:25px;
+	padding:15px;
+	width:220px;
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+}
+
+#slide:hover{
+	box-shadow:0 0 8px #000;
+
+}
+
+#slide ul{
+	list-style:none;
+}
+
+#slide ul li{
+	padding-top:5px;
+	
+}
+
+#slide img{
+	border:5px solid #fff;
+}
+
+
+#icons_sociales{
+	border-top:1px solid #979797;
+	margin-top:8px;
+	padding-left:8px;
+}
+
+#icons_sociales img{
+	border:0;
+	padding-top:10px;
+}
+#prefooter{
+	background-color:#ccc;
+}
+
+#cont_prefooter{
+	color:#fff;
+	font-family:verdana;
+	font-size:25px;
+	max-width:960px;
+	margin:0 auto;
+}
+
+#state{
+	max-width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+
+#state #clientes{
+	float:left;
+	max-width:30%;
+	padding-left:110px;
+	padding-top:20px;
+	text-shadow:0 0 1px #000;
+}
+
+#empresas{
+	max-width:60%;
+	margin-left:50px;
+	padding-left:120px;
+	padding-top:5px;
+}
+
+#empresas img{
+	height:100px;
+	width:100px;
+}
+
+#cont_footer{
+	color:#fff;
+	font-size:15px;
+	font-family:verdana;
+	max-width:960;
+	margin:0 auto;
+	padding:15px;
+	text-shadow:1px 1px 5px #000;
+}
+
+#cont_footer a{
+	border-bottom:1px dashed #fff;
+}
+
